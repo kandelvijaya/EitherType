@@ -1,6 +1,0 @@
-framework module EitherType {
-  umbrella header "EitherType.h"
-
-  export *
-  module * { export * }
-}
