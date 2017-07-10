@@ -1,0 +1,33 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/vkandel/Desktop/Sharpen the Saw/EitherType/Build/Products/Debug-iphoneos/EitherType.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "EitherType-Swift.h",
+          'external-contents': "/Users/vkandel/Desktop/Sharpen the Saw/EitherType/Build/Products/Debug-iphoneos/EitherType.framework/Headers/EitherType-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "EitherType.h",
+          'external-contents': "/Users/vkandel/Desktop/Sharpen the Saw/EitherType/EitherType/EitherType.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/vkandel/Desktop/Sharpen the Saw/EitherType/Build/Products/Debug-iphoneos/EitherType.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/vkandel/Desktop/Sharpen the Saw/EitherType/Build/Intermediates/EitherType.build/Debug-iphoneos/EitherType.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}
