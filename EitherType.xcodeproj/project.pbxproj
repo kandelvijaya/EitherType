@@ -10,6 +10,7 @@
 		28311A091F14248A0060D85D /* EitherType.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 283119FF1F14248A0060D85D /* EitherType.framework */; };
 		28311A0E1F14248A0060D85D /* EitherTypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28311A0D1F14248A0060D85D /* EitherTypeTests.swift */; };
 		28311A101F14248A0060D85D /* EitherType.h in Headers */ = {isa = PBXBuildFile; fileRef = 28311A021F14248A0060D85D /* EitherType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28311A1A1F1425F40060D85D /* EitherType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28311A191F1425F40060D85D /* EitherType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		28311A081F14248A0060D85D /* EitherTypeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EitherTypeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28311A0D1F14248A0060D85D /* EitherTypeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EitherTypeTests.swift; sourceTree = "<group>"; };
 		28311A0F1F14248A0060D85D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28311A191F1425F40060D85D /* EitherType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EitherType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			children = (
 				28311A021F14248A0060D85D /* EitherType.h */,
 				28311A031F14248A0060D85D /* Info.plist */,
+				28311A191F1425F40060D85D /* EitherType.swift */,
 			);
 			path = EitherType;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 				TargetAttributes = {
 					283119FE1F14248A0060D85D = {
 						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
 					};
 					28311A071F14248A0060D85D = {
 						CreatedOnToolsVersion = 9.0;
@@ -194,6 +198,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28311A1A1F1425F40060D85D /* EitherType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,6 +333,7 @@
 		28311A141F14248A0060D85D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = K7C399XTGR;
@@ -340,6 +346,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.kandelvijaya.EitherType;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -348,6 +355,7 @@
 		28311A151F14248A0060D85D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = K7C399XTGR;
@@ -368,6 +376,7 @@
 		28311A171F14248A0060D85D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = K7C399XTGR;
 				INFOPLIST_FILE = EitherTypeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -381,6 +390,7 @@
 		28311A181F14248A0060D85D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = K7C399XTGR;
 				INFOPLIST_FILE = EitherTypeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
